@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Enemies from './components/Enemies';
 
 class App extends Component {
   render() {

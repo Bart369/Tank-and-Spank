@@ -1,5 +1,5 @@
 
-const Move = {
+const Moves = {
     "bite": (atk) => {
         let damage = atk * 3;
         let bite = {
@@ -25,4 +25,4 @@ const Move = {
 
 }
 
-export default Move;
+export default Moves;

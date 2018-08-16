@@ -1,5 +1,5 @@
-import Character from './characters';
-import Move from './moves';
+import Character from './Characters';
+import Moves from './Moves';
 
 class Enemy extends Character {
     constructor(name, lvl, hp, mp, atk, spd, move1, move2, move3, move4) {
@@ -13,7 +13,7 @@ class Enemy extends Character {
     this
 }
 
-const move = Move;
+const move = Moves;
 
 let zombie = new Enemy("Walker", 1, 100, 30, 15, 5, move.bite, move.scratch, move.empty, move.empty);
 
