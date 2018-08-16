@@ -13,4 +13,4 @@ class Player extends Character {
 
 const move = new Moves;
 
-let rick = new Player("Rick", 1, 150, 180, 5, 15, move.revolver, move.axeSwing, move.rickTatorship, )
+let rick = new Player("Rick", 1, 150, 180, 5, 15, move.revolver, move.axeSwing, move.rickTatorship, move.caaarl )

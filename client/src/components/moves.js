@@ -19,6 +19,16 @@ const Moves = {
         return bite;
     },
 
+    "caaarl": () => {
+        let damage = 0;
+        let carl = {
+            "name": "Caaaarl...",
+            "dmg": damage,
+            "cost": 0
+        }
+        return carl;
+    },
+
     "revolver": (atk, mp) => {
         let damage = atk * 5;
         let shot = {
@@ -32,8 +42,8 @@ const Moves = {
     "rickTatorship": (atk, mp, lvl) => {
         let buff = {
             "name": "Ricktatorship",
-        // "buff": "Attack buff to party?"
             "cost": 30,
+            "effect": "Attack buff to party"
         }
         return buff
     },
@@ -45,6 +55,16 @@ const Moves = {
             "dmg": damage,
         }
         return scratch;
+    },
+
+    "zombieTrip": () => {
+        let damage = 0;
+        let trip = {
+            "name": "Zombie Trip",
+            "dmg": damage,
+            "effect": "Zombie stumbles like a turd..."
+        }
+        return trip;
     },
 
     "empty": () => {

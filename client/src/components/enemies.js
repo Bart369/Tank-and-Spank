@@ -15,7 +15,7 @@ class Enemy extends Character {
 
 const move = Moves;
 
-let zombie = new Enemy("Walker", 1, 100, 0, 15, 5, move.bite, move.scratch, move.empty, move.empty);
+let zombie = new Enemy("Walker", 1, 100, 0, 15, 5, move.bite, move.scratch, move.zombieTrip, move.zombieTrip);
 
 
 console.log(zombie);
