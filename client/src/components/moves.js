@@ -24,6 +24,7 @@ const Moves = {
         let carl = {
             "name": "Caaaarl...",
             "dmg": damage,
+            "effect": "Caaaaaarrrl...",
             "cost": 0
         }
         return carl;
@@ -42,8 +43,8 @@ const Moves = {
     "rickTatorship": (atk, mp, lvl) => {
         let buff = {
             "name": "Ricktatorship",
-            "cost": 30,
-            "effect": "Attack buff to party"
+            "effect": "Attack buff to party",
+            "cost": 30
         }
         return buff
     },
